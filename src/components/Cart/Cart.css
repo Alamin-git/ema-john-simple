@@ -1,0 +1,29 @@
+.cart-header{
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #1C2B35;
+    margin-bottom: 50px;
+}
+.cart{
+    padding-left: 40px;
+}
+.cart p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #2A414F;
+    margin-bottom: 25px;
+}
+.g-total{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    color: #0E161A;
+}
