@@ -24,6 +24,7 @@ const Cart = (props) => {
             <p>Tax: ${tex}</p>
             <h4 className="g-total">Grand Total: ${grandTotal}</h4>
          </div>
+         {props.children}
       </div>
    );
 };

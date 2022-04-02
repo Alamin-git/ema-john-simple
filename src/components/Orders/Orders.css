@@ -1,0 +1,18 @@
+.checkout-btn {
+   width: 400px;
+   height: 56px;
+   background: #FF9900;
+   border-radius: 4px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   color: #FFFFFF;
+   border: 0;
+   margin: 0 11px;
+   padding: 0 15px;
+   cursor: pointer;
+}
+
+.card-icon {
+   margin-left: 80px;
+}

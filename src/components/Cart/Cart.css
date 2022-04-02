@@ -1,8 +1,10 @@
-.cart{
+.cart {
     position: sticky;
     top: 0;
+    margin: 20px 0;
 }
-.cart-header{
+
+.cart-header {
     text-align: center;
     font-family: 'Lato';
     font-style: normal;
@@ -12,10 +14,12 @@
     margin-bottom: 50px;
     padding-top: 30px;
 }
-.cart-info{
+
+.cart-info {
     padding-left: 40px;
 }
-.cart p{
+
+.cart p {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
@@ -24,11 +28,13 @@
     color: #2A414F;
     margin-bottom: 25px;
 }
-.g-total{
+
+.g-total {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 21px;
     line-height: 25px;
     color: #0E161A;
+    margin-bottom: 29px;
 }
