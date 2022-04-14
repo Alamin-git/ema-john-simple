@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import './Login.css';
 import gLogo from '../../images/google-icon.png';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
@@ -17,15 +17,11 @@ const Login = () => {
 
    const navigate = useNavigate();
 
-   // if (error) {
-   //    return setError('User not found');
-   // }
+   const location = useLocation();
+   const from = location.state?.from?.pathname || '/';
 
-   // if (loading) {
-   //    return setError('Loading...');
-   // }
    if (user) {
-      navigate('/shop');
+      navigate(from, { replace: true });
    }
    const handelUserSignIn = (e) => {
       e.preventDefault();
