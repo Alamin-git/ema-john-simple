@@ -8,17 +8,20 @@ const Header = () => {
       <nav className="header">
          <img src={logo} alt="" />
          <div className="nav-menu">
-            <CustomLink className="nav" to={"/"}>
+            <CustomLink to={"/"}>
                Home
             </CustomLink>
-            <CustomLink className="nav" to={"/shop"}>
+            <CustomLink to={"/shop"}>
                Shop
             </CustomLink>
-            <CustomLink className="nav" to={"/orders"}>
+            <CustomLink to={"/orders"}>
                Orders
             </CustomLink>
-            <CustomLink className="nav" to={"/about"}>
+            <CustomLink to={"/about"}>
                About
+            </CustomLink>
+            <CustomLink to={"/login"}>
+               Login
             </CustomLink>
          </div>
       </nav>

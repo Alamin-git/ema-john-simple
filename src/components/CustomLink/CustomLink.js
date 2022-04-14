@@ -10,7 +10,7 @@ function CustomLink({ children, to, ...props }) {
          <Link
             style={{
                color: match ? "orange" : "",
-               borderBottom: match ? "1px solid orange" : "",
+               borderBottom: match ? "1px solid white" : "",
                borderRadius: match ? "5px" : "",
                paddingBottom: match ? "5px" : "",
                transition: match ? " 0.3s" : "",
