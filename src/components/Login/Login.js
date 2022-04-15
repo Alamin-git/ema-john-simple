@@ -57,8 +57,8 @@ const Login = () => {
             </form>
             <p className='new-ema'>New to Ema-john? <Link className='sign-link' to={"/signup"}>Create New Account</Link ></p>
             <p className='login-or'>or</p>
-            <btn className="g-sign-btn"><img src={gLogo} alt="" /> Continue with Google
-            </btn>
+            <button className="g-sign-btn"><img src={gLogo} alt="" /> Continue with Google
+            </button>
          </div>
       </div>
    );
