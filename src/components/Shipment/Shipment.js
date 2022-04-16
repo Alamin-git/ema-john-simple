@@ -27,7 +27,7 @@ const Shipment = () => {
       console.log(shipping);
    }
    return (
-      <div className="login-container">
+      <div className="Sign-in-container">
          <div>
             <h2 className='form-title'>Your Shipping Info</h2>
             <form onSubmit={handelCreatUser}>
